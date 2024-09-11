@@ -2,16 +2,7 @@
 
 public class Student
 {
-    public Student(string studentId, string name, double gpa, string nationalCode, string password)
-    {
-        StudentId = studentId;
-        Name = name;
-        Gpa = gpa;
-        NationalCode = nationalCode;
-        Password = password;
-        WeeklySchedule = new List<Course>(); 
-    }
-
+    
     public string StudentId { get; private set; }
     public string Name { get; private set; }
     public string NationalCode { get; private set; }

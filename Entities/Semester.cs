@@ -2,13 +2,6 @@
 
 public class Semester
 {
-    public Semester(DateTime semesterDate, int units, string semId, Course? course)
-    {
-        SemesterDate = semesterDate;
-        Units = units;
-        SemId = semId;
-        Course = course;
-    }
     
     public DateTime SemesterDate { get; private set; }
     public int Units { get; private set; }

@@ -2,12 +2,6 @@
 
 public class Score
 {
-    public Score(double average, Course? course)
-    {
-        Average = average;
-        Course = course;
-    }
-
     public double Average { get; private set; }
     private static Course? Course { get; set; }
 

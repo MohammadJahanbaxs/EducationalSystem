@@ -2,17 +2,7 @@
 
 public class Teacher
 {
-    public Teacher(string teacherId, string name, string nationalCode, string password, double salary, double grant, Course? course)
-    {
-        TeacherId = teacherId;
-        Name = name;
-        NationalCode = nationalCode;
-        Password = password;
-        Salary = salary;
-        Grant = grant;
-        Course = course;
-    }
-
+    
     public string TeacherId { get; private set; }
     public string Name { get; private set; }
     public string NationalCode { get; private set; }

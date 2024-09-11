@@ -2,14 +2,6 @@
 
 public class Request
 {
-    public Request(string name, string reqId, string requestMassage, string answer, Score? score)
-    {
-        Name = name;
-        ReqId = reqId;
-        RequestMassage = requestMassage;
-        Answer = answer;
-        Score = score;
-    }
 
     public string Name { get; private set; }
     public string ReqId { get; private set; }
