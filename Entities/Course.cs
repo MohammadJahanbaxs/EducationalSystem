@@ -1,6 +1,6 @@
 ﻿namespace EducationalSystem.Entities;
 
-public abstract class Course
+public class Course
 {
     
     public string? Name { get; private set; }
