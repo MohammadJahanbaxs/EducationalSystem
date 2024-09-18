@@ -8,6 +8,7 @@ public class Score
     public string? CourseName { get; } = Course?.Name;
     public string? CourseId { get; } = Course?.CourseId;
     public double? CourseScore { get; } = Course?.Score;
+    public bool? Accept { get; } = Course?.Accepted;
 }
 
 

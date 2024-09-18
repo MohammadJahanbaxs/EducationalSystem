@@ -7,8 +7,8 @@ public class Student
     public string Name { get; private set; }
     public string NationalCode { get; private set; }
     private string Password { get; set; }
-    public double Gpa { get; private set; } //Gpa : Grade point average
-    private List<Course> WeeklySchedule { get; set; }
+    public double Gpa { get; private set; }                 //Gpa : Grade point average
+    private List<Course> WeeklySchedule { get; set; }  // برنامه هفتگی     
     
     public void AddCourse(Course course)
     {
